@@ -1,0 +1,178 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Open Sans;
+}
+
+.navbar {
+  background: hsl(217, 28%, 15%);
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  padding-bottom: 10px;
+}
+
+.navItens > a {
+  padding: 0px 0px 0px 50px;
+  text-align: center;
+  text-decoration: none;
+  color:hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.section1 {
+  background: hsl(217, 28%, 15%);
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+}
+
+.files {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.files > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.tittle {
+  position: absolute;
+  color:hsl(0, 0%, 100%);
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+}
+
+.descripFylo {
+  position: absolute;
+  width: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 700px;
+}
+
+.descripFylo > p {
+  color:hsl(0, 0%, 100%);
+  font-size: 30px;
+}
+
+.getStarted {
+  position: absolute;
+  font-size: 20px;
+  color:hsl(0, 0%, 100%);
+  background: hsl(198, 60%, 50%);
+  padding: 15px 90px ;
+  border-radius: 50px;
+  top: 980px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.curve {
+  margin-top: 120px;
+  width: 100%;
+  /* padding-bottom: 1px; */
+}
+
+.curve > img {
+  width: 100%;
+}
+
+.section2, .section3, .section4, .section5 {
+  background: hsl(218, 28%, 13%);
+}
+
+.section2 {
+
+}
+
+.itemsSec2 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.miniLogo {
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  text-align: center;
+  padding: 20px;
+}
+
+.item1, .item2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.miniLogo > a , p  {
+  color: hsl(0, 0%, 100%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  font-family: Raleway;
+}
+
+.item1 {
+  margin-bottom: 70px;
+}
+
+.item1 > div {
+  width: 450px;
+}
+
+.item2 > div {
+  width: 450px;
+}
+
+.productive {
+  display: flex;
+  padding: 150px 0px;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+}
+
+.productiveText {
+  padding: 100px 0px 0px 50px;
+  width: 800px;
+}
+
+.productiveText > div {
+  width: 550px;
+}
+
+.productiveText > div > a {
+  color: hsl(0, 0%, 100%);
+  font-size: 50px;
+}
+
+.productiveText > p {
+  font-size: 20px;
+}
+
+.fyloWorks {
+  color: hsl(198, 60%, 50%);
+  font-size: 21px;
+}
